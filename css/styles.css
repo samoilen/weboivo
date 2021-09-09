@@ -52,12 +52,13 @@ img{
     height: 40px;
     background-color: #F5F6F7;
 }
+/*100% ширины бургера 40-22=18 18 длинна палочки бургер меню*/
 .burger-line{
     position: absolute;
     left: var(--offset);
     top: 0;
     display: inline-block;
-    width: 100%;
+    width: calc(100%(var()));    
     height: 2px;
     background-color: #000;
 
