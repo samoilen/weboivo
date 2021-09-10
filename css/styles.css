@@ -1,3 +1,27 @@
+@font-face{
+    font-family:'Poppins' ;
+    src: url(../fonts/Poppins-Regular.woff)format(woff);
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+
+}
+@font-face{
+    font-family:'Poppins' ;
+    src: url(../fonts/Poppins-Medium.woff)format(woff);
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+
+}
+@font-face{
+    font-family:'Poppins' ;
+    src: url(../fonts/Poppins-Bold.woff)format(woff);
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+
+}
 *{
     box-sizing: border-box;
 }
@@ -38,6 +62,8 @@ img{
     justify-content: space-between;
 }
 .header{
+    padding-top: 24px;
+    padding-bottom: 24px;
     position: absolute;
     left: 0;
     top: 0;
