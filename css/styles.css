@@ -18,7 +18,7 @@
     font-family:'Poppins' ;
     src: url(../fonts/Poppins-Bold.woff)format(woff);
     font-display: swap;
-    font-weight: 700;
+    font-weight: 7 00;
     font-style: normal;
 
 }
@@ -31,7 +31,7 @@
     box-sizing: border-box;
 }
 body{
-    font-family: '',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-weight: 400;
 }
 img{
@@ -43,6 +43,7 @@ img{
     list-style-type: none;
 }
 .btn-reset{
+    font-family: 'Poppins',sans-serif;
     padding: 0;
     border: none;
     background-color: transparent;
@@ -52,6 +53,32 @@ img{
     max-width: 1140px;
     padding: 0 15px;
     margin: 0 auto;
+}
+.link{
+    display: inline-flex;
+    align-items: center;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    color: #d4d6d4;
+    text-decoration:  none;
+    transition: color 0.3s ease-in-out;
+}
+.link svg{
+    width: 9px;
+    height: 9px;
+    fill: currentColor;
+    border-bottom: none;
+
+}
+.link span{
+    text-indent: 10px;
+    border-bottom: 1px solid currentColor;
+}
+.link:hover{
+    color:#ffd723;
+
 }
 /*******************************
 ********hero-section*************
@@ -88,12 +115,36 @@ img{
     margin-bottom: 4px;
     margin-top: -1px;/*это надо изменить*/
 }
-
-
+.hero-content{
+    max-width: 616px;
+    color: #fff;
+}
 .hero{
-    padding: 100px;
+    padding: 189px;
     background-image: url(../images/Bitmap.png);
     background-repeat: no-repeat;
     background-position: center  center;
     background-size:cover ;
 }
+.hero-subtitle{
+    font-weight: 400;
+    line-height: 21px;
+    
+
+}
+.hero-title{
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 74px;
+}
+.hero-descr{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+
+
+
